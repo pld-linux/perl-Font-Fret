@@ -16,7 +16,7 @@ BuildRequires:	perl-Text-PDF
 BuildRequires:	perl-IO-stringy
 %requires_eq	perl
 Requires:	%{perl_sitearch}
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Font-Fret - Font REporting Tool.
