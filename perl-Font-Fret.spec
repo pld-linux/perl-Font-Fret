@@ -1,5 +1,4 @@
 %include	/usr/lib/rpm/macros.perl
-%define		__find_requires	%{_builddir}/Font-Fret-%{version}/find-perl-requires
 Summary:	Font-Fret perl module
 Summary(pl):	Modu³ perla Font-Fret
 Name:		perl-Font-Fret
@@ -9,12 +8,12 @@ Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Font/Font-Fret-%{version}.tar.gz
-Patch:		perl-Font-Fret-dep.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-Font-AFM
 BuildRequires:	perl-Font-TTF
 BuildRequires:	perl-Text-PDF
+BuildRequires:	perl-IO-stringy
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 BuildRoot:	/tmp/%{name}-%{version}-root
@@ -27,9 +26,6 @@ Modu³ perla Font-Fret.
 
 %prep
 %setup -q -n Font-Fret-%{version}
-%patch -p1
-
-chmod +x find-perl-requires
 
 %build
 perl Makefile.PL
