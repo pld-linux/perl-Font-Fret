@@ -15,8 +15,6 @@ BuildRequires:	perl-Font-AFM
 BuildRequires:	perl-Font-TTF
 BuildRequires:	perl-Text-PDF
 BuildRequires:	perl-IO-stringy
-%requires_eq	perl
-Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
