@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Font
-%define	pnam	Fret
+%define		pdir	Font
+%define		pnam	Fret
 Summary:	Font::Fret - Font REporting Tool
 Summary(pl):	Font::Fret - narzêdzie raportuj±ce o fontach
 Name:		perl-Font-Fret
