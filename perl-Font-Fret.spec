@@ -3,7 +3,7 @@ Summary:	Font-Fret perl module
 Summary(pl):	Modu³ perla Font-Fret
 Name:		perl-Font-Fret
 Version:	1.201
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -15,6 +15,7 @@ BuildRequires:	perl-Font-AFM
 BuildRequires:	perl-Font-TTF
 BuildRequires:	perl-Text-PDF
 BuildRequires:	perl-IO-stringy
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
