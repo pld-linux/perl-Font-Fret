@@ -5,7 +5,7 @@ Summary:	Font::Fret - Font REporting Tool
 Summary(pl):	Font::Fret - narzêdzie raportuj±ce o fontach
 Name:		perl-Font-Fret
 Version:	1.202
-Release:	4
+Release:	5
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
