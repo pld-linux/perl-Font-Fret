@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Font
 %define	pnam	Fret
-%include	/usr/lib/rpm/macros.perl
 Summary:	Font-Fret perl module
 Summary(pl):	Modu³ perla Font-Fret
 Name:		perl-Font-Fret
 Version:	1.202
-Release:	2
-
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -26,7 +25,7 @@ Font-Fret - Font REporting Tool.
 Modu³ perla Font-Fret.
 
 %prep
-%setup -q -n Font-Fret-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
