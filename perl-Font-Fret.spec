@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Font
 %define	pnam	Fret
-Summary:	Font-Fret perl module
-Summary(pl):	Modu³ perla Font-Fret
+Summary:	Font::Fret perl module
+Summary(pl):	Modu³ perla Font::Fret
 Name:		perl-Font-Fret
 Version:	1.202
 Release:	3
@@ -19,10 +19,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Font-Fret - Font REporting Tool.
+Font::Fret - Font REporting Tool.
 
 %description -l pl
-Modu³ perla Font-Fret.
+Modu³ perla Font::Fret.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
