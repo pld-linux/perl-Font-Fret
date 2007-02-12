@@ -2,7 +2,7 @@
 %define		pdir	Font
 %define		pnam	Fret
 Summary:	Font::Fret - Font REporting Tool
-Summary(pl):	Font::Fret - narzêdzie raportuj±ce o fontach
+Summary(pl.UTF-8):   Font::Fret - narzÄ™dzie raportujÄ…ce o fontach
 Name:		perl-Font-Fret
 Version:	1.202
 Release:	5
@@ -25,11 +25,11 @@ reports to be written.  A report is a package on which calls are made
 to give specific information for a specific report.  The rest of Fret
 does the housekeeping of generating the report in PDF format.
 
-%description -l pl
-Font::Fret jest systemem narzêdzi raportuj±cych o fontach, który
-umo¿liwia wypisywanie ró¿nych raportów. Raport jest pakietem, na
-którym s± wykonywane wywo³ania w celu uzyskania konkretnej informacji
-do konkretnego raportu. Reszta Fret-a zajmuje siê generacj± nadaniem
+%description -l pl.UTF-8
+Font::Fret jest systemem narzÄ™dzi raportujÄ…cych o fontach, ktÃ³ry
+umoÅ¼liwia wypisywanie rÃ³Å¼nych raportÃ³w. Raport jest pakietem, na
+ktÃ³rym sÄ… wykonywane wywoÅ‚ania w celu uzyskania konkretnej informacji
+do konkretnego raportu. Reszta Fret-a zajmuje siÄ™ generacjÄ… nadaniem
 generowanemu raportowi formatu PDF.
 
 %prep
