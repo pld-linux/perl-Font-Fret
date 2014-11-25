@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Font
 %define		pnam	Fret
+%include	/usr/lib/rpm/macros.perl
 Summary:	Font::Fret - Font REporting Tool
 Summary(pl.UTF-8):	Font::Fret - narzędzie raportujące o fontach
 Name:		perl-Font-Fret
@@ -10,19 +10,20 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f94065491279e977d45fff46b110e799
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Font-Fret/
 BuildRequires:	perl-Font-AFM
 BuildRequires:	perl-Font-TTF
-BuildRequires:	perl-Text-PDF
 BuildRequires:	perl-IO-stringy
+BuildRequires:	perl-Text-PDF
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Font::Fret is a font reporting tool system which allows for different
-reports to be written.  A report is a package on which calls are made
-to give specific information for a specific report.  The rest of Fret
+reports to be written. A report is a package on which calls are made
+to give specific information for a specific report. The rest of Fret
 does the housekeeping of generating the report in PDF format.
 
 %description -l pl.UTF-8
